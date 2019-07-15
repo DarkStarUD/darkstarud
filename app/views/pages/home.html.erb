@@ -1,28 +1,25 @@
-
-    <body data-spy="scroll" data-target="#main-menu">
-        <div class="geass-loader-overlay left"></div><!-- End .geass-loader-overlay left -->
-        <div class="geass-loader-overlay right"></div><!-- End .geass-loader-overlay right -->
+    
         <div id="wrapper">
             <!-- Home Section -->
             <section id="home" class="section gfullscreen">
                 <div id="revslider-container">
                     <div id="revslider">
                         <ul>
-                            <li data-transition="random" data-slotamount="8" data-masterspeed="400" data-thumb="images/homeslider/slide12.jpg" data-saveperformance="on"  data-title="Welcome to Geass">
-                                <img src="images/revslider/dummy.png"  alt="slidebg1" data-lazyload="images/homeslider/slide12.jpg" data-kenburns="on" data-bgposition="center center" data-duration="4800" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center top" data-bgrepeat="no-repeat">
+                            <li data-transition="random" data-slotamount="8" data-masterspeed="400" data-thumb=<%= asset_path("homeslider/slide12.jpg", type: :image) %> data-saveperformance="on"  data-title="Welcome to Geass">
+                                <img src=<%= asset_path("revslider/dummy.png" , type: :image) %> alt="slidebg1" data-lazyload=<%= asset_path("homeslider/slide12.jpg", type: :image) %> data-kenburns="on" data-bgposition="center center" data-duration="4800" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center top" data-bgrepeat="no-repeat">
                                 <div class="tp-caption rev-title rev-uppercase sft stt" data-x="center" data-hoffset="25" data-y="215" data-start="1000" data-speed="1000"><span class="yellow-color">Welcome</span> to</div>
 
                                 <div class="tp-caption rev-title rev-title-biggest customin customout" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="600" data-splitin="chars" data-splitout="chars" data-elementdelay="0.3" data-endelementdelay="0.1" data-endspeed="600" data-x="center" data-y="205" data-speed="1200">Geass</div>
                             </li>
-                            <li data-transition="random" data-slotamount="8" data-masterspeed="450" data-thumb="images/homeslider/slide2.jpg" data-saveperformance="on"  data-title="Awesome Designs">
-                                <img src="images/revslider/dummy.png"  alt="slidebg2" data-lazyload="images/homeslider/slide2.jpg"  data-kenburns="on" data-bgposition="center bottom" data-duration="4200" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center center" data-bgrepeat="no-repeat">
+                            <li data-transition="random" data-slotamount="8" data-masterspeed="450" data-thumb=<%= asset_path("homeslider/slide2.jpg" , type: :image) %> data-saveperformance="on"  data-title="Awesome Designs">
+                                <img src=<%= asset_path("revslider/dummy.png", type: :image) %>  alt="slidebg2" data-lazyload=<%= asset_path("homeslider/slide2.jpg", type: :image) %>  data-kenburns="on" data-bgposition="center bottom" data-duration="4200" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center center" data-bgrepeat="no-repeat">
                                 
                                 <div class="tp-caption rev-title rev-border sft stt" data-x="center" data-y="210" data-start="1000" data-speed="1000">We Like to <span class="yellow-color">Create</span></div>
 
                                 <div class="tp-caption rev-title rev-title-big customin customout" data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-start="600" data-splitin="chars" data-splitout="chars" data-elementdelay="0.3" data-endelementdelay="0.1" data-endspeed="600" data-x="center" data-y="295" data-speed="1200">Awesome Designs</div>
                             </li>
-                            <li data-transition="random" data-slotamount="8" data-masterspeed="450" data-thumb="images/homeslider/slide5.jpg" data-saveperformance="on" data-title="Creative Team">
-                                <img src="images/revslider/dummy.png"  alt="slidebg3" data-lazyload="images/homeslider/slide5.jpg" data-kenburns="on" data-bgposition="center bottom" data-duration="5200" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center center" data-bgrepeat="no-repeat">
+                            <li data-transition="random" data-slotamount="8" data-masterspeed="450" data-thumb=<%= asset_path("homeslider/slide5.jpg" , type: :image) %> data-saveperformance="on" data-title="Creative Team">
+                                <img src=<%= asset_path("revslider/dummy.png", type: :image) %>  alt="slidebg3" data-lazyload=<%= asset_path("homeslider/slide5.jpg", type: :image) %> data-kenburns="on" data-bgposition="center bottom" data-duration="5200" data-bgfit="115" data-bgfitend="100" data-bgpositionend="center center" data-bgrepeat="no-repeat">
                                 <div class="tp-caption rev-title sft stt" data-x="center" data-hoffset="-125" data-y="145" data-start="600" data-speed="1000">Couple Of</div>
                                 <div class="tp-caption rev-title lightblue-color sfb stb" data-x="center" data-hoffset="125" data-y="145" data-start="600" data-speed="1000">Creative Minds</div>
 
@@ -49,7 +46,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand navbar-brand-img" href="index.html"><img src="images/logo-white.png" class="img-responsive" alt="logo"></a>
+                            <a class="navbar-brand navbar-brand-img" href="index.html"><img src=<%= asset_path("logo-white.png", type: :image) %> class="img-responsive" alt="logo"></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -94,7 +91,7 @@
                             <div class="member left">
                                 <div class="member-wrapper">
                                     <figure class="front">
-                                        <img src="images/team/eric.jpg" alt="eric" class="img-responsive">
+                                        <img src=<%= asset_path("team/eric.jpg", type: :image) %> alt="eric" class="img-responsive">
                                     </figure>
                                     <div class="back">
                                         <div class="vcenter-container">
@@ -120,7 +117,7 @@
                             <div class="member left">
                                 <div class="member-wrapper">
                                     <figure class="front">
-                                        <img src="images/team/barbara.jpg" alt="barbara" class="img-responsive">
+                                        <img src=<%= asset_path("team/barbara.jpg", type: :image) %> alt="barbara" class="img-responsive">
                                     </figure>
                                     <div class="back">
                                         <div class="vcenter-container">
@@ -146,7 +143,7 @@
                             <div class="member right">
                                 <div class="member-wrapper">
                                     <figure class="front">
-                                        <img src="images/team/steve.jpg" alt="Stever" class="img-responsive">
+                                        <img src=<%= asset_path("team/steve.jpg", type: :image) %> alt="Stever" class="img-responsive">
                                     </figure>
                                     <div class="back">
                                         <div class="vcenter-container">
@@ -171,7 +168,7 @@
                             <div class="member right">
                                 <div class="member-wrapper">
                                     <figure class="front">
-                                        <img src="images/team/jane.jpg" alt="Jane" class="img-responsive">
+                                        <img src=<%= asset_path("team/jane.jpg", type: :image) %> alt="Jane" class="img-responsive">
                                     </figure>
                                     <div class="back">
                                         <div class="vcenter-container">
@@ -253,7 +250,7 @@
                 <div class="container img-container">
                     <div class="row">
                         <div class="col-md-10 col-md-push-1 col-sm-10 col-sm-push-1">
-                            <img src="images/geass.png" alt="Geass" class="img-responsive wow fadeInUpBig">
+                            <img src=<%= asset_path("geass.png", type: :image) %> alt="Geass" class="img-responsive wow fadeInUpBig">
                         </div><!-- End .col-md-8 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
@@ -462,7 +459,7 @@
                     <ul id="portfolio-item-container" class="clearfix" data-maxcolumn="4" data-rotateanimation="true" data-animationclass="fadeInUpBig">
                         <li class="portfolio-item animate-item photography" data-animate-time="80">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item1.jpg" alt="item 1">
+                                <img src=<%= asset_path("portfolio/item1.jpg", type: :image) %> alt="item 1">
                                 <div class="portfolio-overlay yellowbg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -478,7 +475,7 @@
                         </li>
                         <li class="portfolio-item animate-item design illustration video" data-animate-time="160">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item2.jpg" alt="item 2">
+                                <img src=<%= asset_path("portfolio/item2.jpg", type: :image) %> alt="item 2">
                                 <div class="portfolio-overlay lightbluebg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -496,7 +493,7 @@
                         </li>
                         <li class="portfolio-item animate-item design" data-animate-time="240">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item3.jpg" alt="item 3">
+                                <img src=<%= asset_path("portfolio/item3.jpg", type: :image) %> alt="item 3">
                                 <div class="portfolio-overlay redbg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -512,7 +509,7 @@
                         </li>
                         <li class="portfolio-item animate-item photography video" data-animate-time="320">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item4.jpg" alt="item 4">
+                                <img src=<%= asset_path("portfolio/item4.jpg", type: :image) %> alt="item 4">
                                 <div class="portfolio-overlay lightgreenbg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -529,7 +526,7 @@
                         </li>
                         <li class="portfolio-item animate-item illustration design" data-animate-time="400">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item5.jpg" alt="item 5">
+                                <img src=<%= asset_path("portfolio/item5.jpg", type: :image) %> alt="item 5">
                                 <div class="portfolio-overlay bluebg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -546,7 +543,7 @@
                         </li>
                         <li class="portfolio-item animate-item design" data-animate-time="480">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item6.jpg" alt="item 6">
+                                <img src=<%= asset_path("portfolio/item6.jpg", type: :image) %> alt="item 6">
                                 <div class="portfolio-overlay greenbg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -562,7 +559,7 @@
                         </li>
                         <li class="portfolio-item animate-item photography illustration" data-animate-time="560">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item7.jpg" alt="item 7">
+                                <img src=<%= asset_path("portfolio/item7.jpg", type: :image) %> alt="item 7">
                                 <div class="portfolio-overlay orangebg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -579,7 +576,7 @@
                         </li>
                         <li class="portfolio-item animate-item illustration" data-animate-time="640">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item8.jpg" alt="item 8">
+                                <img src=<%= asset_path("portfolio/item8.jpg", type: :image) %> alt="item 8">
                                 <div class="portfolio-overlay purplebg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -595,7 +592,7 @@
                         </li>
                         <li class="portfolio-item animate-item photography" data-animate-time="720">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item9.jpg" alt="item 9">
+                                <img src=<%= asset_path("portfolio/item9.jpg", type: :image) %> alt="item 9">
                                 <div class="portfolio-overlay yellowbg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -611,7 +608,7 @@
                         </li>
                         <li class="portfolio-item animate-item photography" data-animate-time="800">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item10.jpg" alt="item 10">
+                                <img src=<%= asset_path("portfolio/item10.jpg", type: :image) %> alt="item 10">
                                 <div class="portfolio-overlay lightbluebg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -627,7 +624,7 @@
                         </li>
                         <li class="portfolio-item animate-item design video" data-animate-time="880">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item11.jpg" alt="item 11">
+                                <img src=<%= asset_path("portfolio/item11.jpg", type: :image) %> alt="item 11">
                                 <div class="portfolio-overlay lightgreenbg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -644,7 +641,7 @@
                         </li>
                         <li class="portfolio-item animate-item photography video" data-animate-time="960">
                             <div class="portfolio-item-wrapper">
-                                <img src="images/portfolio/item12.jpg" alt="item 12">
+                                <img src=<%= asset_path("portfolio/item12.jpg", type: :image) %> alt="item 12">
                                 <div class="portfolio-overlay purplebg">
                                     <div class="vcenter-container">
                                         <div class="vcenter">
@@ -676,19 +673,19 @@
                             <div class="col-md-8 col-md-push-2 col-sm-8 col-sm-push-2">
                                 <div class="owl-carousel testimonials-carousel">
                                     <div class="testimonial">
-                                        <figure><img src="images/testimonials/dean.jpg" alt="Dean Winchester"></figure>
+                                        <figure><img src=<%= asset_path("testimonials/dean.jpg" , type: :image) %> alt="Dean Winchester"></figure>
                                         <p>First of all thank you very much for awesome product. What i like about you, is you don't give us only quality products, you also provide awesome supports. I am a life time customer here. When i need to design a website, you will be the one that i will ask to create. Thanks again for the world class design and clean code. Really appreciate.</p>
                                         <span class="testimonial-owner">Dean Winchester - <span>Ceo of Parke</span></span>
                                     </div><!-- End .testimonial -->
 
                                     <div class="testimonial">
-                                        <figure><img src="images/testimonials/jane.jpg" alt="Jane Watson"></figure>
+                                        <figure><img src=<%= asset_path("testimonials/jane.jpg", type: :image) %> alt="Jane Watson"></figure>
                                         <p>I have used Geass’s services for the last three years. I have three sources of income - one from my rental property, one from my full time job and the other from my investments. Geass pointed out ways I can reduce taxes and boost my income in legitimately creative ways.</p>
                                         <span class="testimonial-owner">Jane Watson - <span>Developer of Cacky</span></span>
                                     </div><!-- End .testimonial -->
 
                                     <div class="testimonial">
-                                        <figure><img src="images/testimonials/sam.jpg" alt="Sam Smimsonn"></figure>
+                                        <figure><img src=<%= asset_path("testimonials/sam.jpg", type: :image) %> alt="Sam Smimsonn"></figure>
                                         <p>Fantastic product, my sites all run super fast and the support is excellent! Fortunately, Geass was my knight in shining armor. They set me up on their enterprise plan and handled the entire process flawlessly. Thank you very much for helping our company getting better. Can't wait to wokr with you again.</p>
                                         <span class="testimonial-owner">Sam Smimsonn - <span>Designer of Goopsy</span></span>
                                     </div><!-- End .testimonial -->
@@ -718,7 +715,7 @@
                                     <article class="article yellow wow fadeInUpBig" data-wow-delay="0">
                                         <span class="article-timeline-date add-tooltip" data-placement="top" title="27 February, 2014"></span>
                                         <div class="article-media-container">
-                                            <img src="images/blog/post4.jpg" alt="post 4">
+                                            <img src=<%= asset_path("blog/post4.jpg", type: :image) %> alt="post 4">
                                         </div><!-- End .article-media-container -->
                                         <div class="article-meta-container">
                                             <span class="article-icon"><i class="fa fa-file-image-o"></i></span>
@@ -738,7 +735,7 @@
                                     <article class="article purple wow fadeInUpBig" data-wow-delay="0.5s">
                                         <span class="article-timeline-date add-tooltip" data-placement="top" title="08 January, 2014"></span>
                                         <div class="article-media-container">
-                                            <img src="images/blog/post3.jpg" alt="post 3">
+                                            <img src=<%= asset_path("blog/post3.jpg", type: :image) %> alt="post 3">
                                         </div><!-- End .article-media-container -->
                                         <div class="article-meta-container">
                                             <span class="article-icon"><i class="fa fa-file-image-o"></i></span>
@@ -761,11 +758,11 @@
                                             <!-- Wrapper for slides -->
                                             <div class="carousel-inner">
                                                 <div class="item active">
-                                                    <img src="images/blog/post1.jpg" class="img-responsive" alt="Slider 1">
+                                                    <img src=<%= asset_path("blog/post1.jpg", type: :image) %> class="img-responsive" alt="Slider 1">
                                                 </div><!-- End .item -->
 
                                                 <div class="item">
-                                                    <img src="images/blog/post2.jpg" class="img-responsive" alt="Slider 2">
+                                                    <img src=<%= asset_path("blog/post2.jpg", type: :image) %> class="img-responsive" alt="Slider 2">
                                                 </div><!-- End .item -->
 
                                             </div><!-- End .carousel-inner -->
@@ -931,7 +928,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <a href="index.html" class="footer-logo" title="Geass - Creative Onepage Template"><img src="images/logo.png" width="210" height="75" alt="Geass Logo"></a>
+                            <a href="index.html" class="footer-logo" title="Geass - Creative Onepage Template"><img src=<%= asset_path("logo.png", type: :image) %> width="210" height="75" alt="Geass Logo"></a>
                         </div><!-- End .col-md-12 -->
                     </div><!-- End .row -->
                 </div><!-- End .container -->
@@ -967,8 +964,3 @@
 
         <!-- Scroll Top Button -->
         <a href="#home" id="scroll-top" class="add-tooltip" data-placement="top" title="Go to top"><i class="fa fa-angle-double-up"></i></a>
-            
-        <!-- Google map javascript api v3 -->
-        <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
-
-    </body>

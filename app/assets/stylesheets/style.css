@@ -76,157 +76,157 @@ body {
 
 /* Patterns */
 .pattern1 {
-  background-image: url('../images/patterns/pattern1.png');
+  background-image: url(pattern1.png);
   background-repeat: repeat;
 }
 
 .pattern2 {
-  background-image: url('../images/patterns/pattern2.png');
+  background-image: url(pattern2.png);
   background-repeat: repeat;
 }
 
 .pattern3 {
-  background-image: url('../images/patterns/pattern3.png');
+  background-image: url(pattern3.png);
   background-repeat: repeat;
 }
 
 .pattern4 {
-  background-image: url('../images/patterns/pattern4.png');
+  background-image: url(pattern4.png);
   background-repeat: repeat;
 }
 
 .pattern5 {
-  background-image: url('../images/patterns/pattern5.png');
+  background-image: url(pattern5.png);
   background-repeat: repeat;
 }
 
 .pattern6 {
-  background-image: url('../images/patterns/pattern6.png');
+  background-image: url(pattern6.png);
   background-repeat: repeat;
 }
 
 .pattern7 {
-  background-image: url('../images/patterns/pattern7.png');
+  background-image: url(pattern7.png);
   background-repeat: repeat;
 }
 
 .pattern8 {
-  background-image: url('../images/patterns/pattern8.png');
+  background-image: url(pattern8.png);
   background-repeat: repeat;
 }
 
 .pattern9 {
-  background-image: url('../images/patterns/pattern9.png');
+  background-image: url(pattern9.png);
   background-repeat: repeat;
 }
 
 .pattern10 {
-  background-image: url('../images/patterns/pattern10.png');
+  background-image: url(pattern10.png);
   background-repeat: repeat;
 }
 
 .pattern11 {
-  background-image: url('../images/patterns/pattern11.png');
+  background-image: url(pattern11.png);
   background-repeat: repeat;
 }
 
 .pattern12 {
-  background-image: url('../images/patterns/pattern12.png');
+  background-image: url(pattern12.png);
   background-repeat: repeat;
 }
 
 .pattern13 {
-  background-image: url('../images/patterns/pattern13.png');
+  background-image: url(pattern13.png);
   background-repeat: repeat;
 }
 
 .pattern14 {
-  background-image: url('../images/patterns/pattern14.png');
+  background-image: url(pattern14.png);
   background-repeat: repeat;
 }
 
 .pattern15 {
-  background-image: url('../images/patterns/pattern15.png');
+  background-image: url(pattern15.png);
   background-repeat: repeat;
 }
 
 .pattern16 {
-  background-image: url('../images/patterns/pattern16.png');
+  background-image: url(pattern16.png);
   background-repeat: repeat;
 }
 
 .pattern17 {
-  background-image: url('../images/patterns/pattern17.png');
+  background-image: url(pattern17.png);
   background-repeat: repeat;
 }
 
 .pattern18 {
-  background-image: url('../images/patterns/pattern18.png');
+  background-image: url(pattern18.png);
   background-repeat: repeat;
 }
 
 .pattern19 {
-  background-image: url('../images/patterns/pattern19.png');
+  background-image: url(pattern19.png);
   background-repeat: repeat;
 }
 
 .pattern20 {
-  background-image: url('../images/patterns/pattern20.png');
+  background-image: url(pattern20.png);
   background-repeat: repeat;
 }
 
 .pattern21 {
-  background-image: url('../images/patterns/pattern21.png');
+  background-image: url(pattern21.png);
   background-repeat: repeat;
 }
 
 .pattern22 {
-  background-image: url('../images/patterns/pattern22.png');
+  background-image: url(pattern22.png);
   background-repeat: repeat;
 }
 
 .pattern23 {
-  background-image: url('../images/patterns/pattern23.png');
+  background-image: url(pattern23.png);
   background-repeat: repeat;
 }
 
 .pattern24 {
-  background-image: url('../images/patterns/pattern24.png');
+  background-image: url(pattern24.png);
   background-repeat: repeat;
 }
 
 .pattern25 {
-  background-image: url('../images/patterns/pattern25.png');
+  background-image: url(pattern25.png);
   background-repeat: repeat;
 }
 
 .pattern26 {
-  background-image: url('../images/patterns/pattern26.png');
+  background-image: url(pattern26.png);
   background-repeat: repeat;
 }
 
 .pattern27 {
-  background-image: url('../images/patterns/pattern27.png');
+  background-image: url(pattern27.png);
   background-repeat: repeat;
 }
 
 .pattern28 {
-  background-image: url('../images/patterns/pattern28.png');
+  background-image: url(pattern28.png);
   background-repeat: repeat;
 }
 
 .pattern29 {
-  background-image: url('../images/patterns/pattern29.png');
+  background-image: url(pattern29.png);
   background-repeat: repeat;
 }
 
 .pattern30 {
-  background-image: url('../images/patterns/pattern30.png');
+  background-image: url(pattern30.png);
   background-repeat: repeat;
 }
 
 .pattern31 {
-  background: url('../images/patterns/pattern31.png');
+  background: url(pattern31.png);
   background-repeat: repeat;
 }
 
@@ -368,7 +368,6 @@ ol {
 .fa-ul > li {
   margin-bottom:0.7em ;
 }
-
 /* make responsive all images*/
 img {
   display: block;
@@ -831,51 +830,51 @@ blockquote.pull-right.green {
 }
 
 .page-header.background1 {
-  background-image: url('../images/backgrounds/background1.jpg');
+  background-image: url(background1.jpg);
 }
 
 .page-header.background2 {
-  background-image: url('../images/backgrounds/background2.jpg');
+  background-image: url(background2.jpg);
 }
 
 .page-header.background3 {
-  background-image: url('../images/backgrounds/background3.jpg');
+  background-image: url(background3.jpg);
 }
 
 .page-header.background4 {
-  background-image: url('../images/backgrounds/background4.jpg');
+  background-image: url(background4.jpg);
 }
 
 .page-header.background5 {
-  background-image: url('../images/backgrounds/background5.jpg');
+  background-image: url(background5.jpg);
 }
 
 .page-header.background6 {
-  background-image: url('../images/backgrounds/background6.jpg');
+  background-image: url(background6.jpg);
 }
 
 .page-header.background7 {
-  background-image: url('../images/backgrounds/background7.jpg');
+  background-image: url(background7.jpg);
 }
 
 .page-header.background8 {
-  background-image: url('../images/backgrounds/background8.jpg');
+  background-image: url(background8.jpg);
 }
 
 .page-header.background9 {
-  background-image: url('../images/backgrounds/background9.jpg');
+  background-image: url(background9.jpg);
 }
 
 .page-header.background10 {
-  background-image: url('../images/backgrounds/background10.jpg');
+  background-image: url(background10.jpg);
 }
 
 .page-header.background11 {
-  background-image: url('../images/backgrounds/background11.jpg');
+  background-image: url(background11.jpg);
 }
 
 .page-header.background12 {
-  background-image: url('../images/backgrounds/background12.jpg');
+  background-image: url(background12.jpg);
 }
 
 .page-header-wrapper {
@@ -2399,7 +2398,7 @@ a.list-group-item-purple.active:focus {
   width:40px;
   height:40px;
   background-color: #f1f1f1;
-  background-image: url('../images/sprites/accordion-btns.png');
+  background-image: url(accordion-btns.png);
   background-repeat: no-repeat;
   border-radius:4px;
   box-shadow:inset 0 -4px 0 rgba(0,0,0, 0.05);
@@ -3313,7 +3312,7 @@ select.form-control {
   border: 1px solid #c90e31;
 }
 
-.red + .popover .popover-title {;
+.red + .popover .popover-title {
   background-color: #c90e31;
   border-bottom: 1px solid #c90e31;
 }
@@ -3343,7 +3342,7 @@ select.form-control {
   border: 1px solid #f49d14;
 }
 
-.orange + .popover .popover-title {;
+.orange + .popover .popover-title {
   background-color: #f49d14;
   border-bottom: 1px solid #f49d14;
 }
@@ -3373,7 +3372,7 @@ select.form-control {
   border: 1px solid #f8d61b;
 }
 
-.yellow + .popover .popover-title {;
+.yellow + .popover .popover-title {
   background-color: #f8d61b;
   border-bottom: 1px solid #f8d61b;
 }
@@ -3404,7 +3403,7 @@ select.form-control {
   border: 1px solid #1bc4f5;
 }
 
-.lightblue + .popover .popover-title {;
+.lightblue + .popover .popover-title {
   background-color: #1bc4f5;
   border-bottom: 1px solid #1bc4f5;
 }
@@ -3434,7 +3433,7 @@ select.form-control {
   border: 1px solid #1e53d8;
 }
 
-.blue + .popover .popover-title {;
+.blue + .popover .popover-title {
   background-color: #1e53d8;
   border-bottom: 1px solid #1e53d8;
 }
@@ -3464,7 +3463,7 @@ select.form-control {
   border: 1px solid #7f01c8;
 }
 
-.purple + .popover .popover-title {;
+.purple + .popover .popover-title {
   background-color: #7f01c8;
   border-bottom: 1px solid #7f01c8;
 }
@@ -3494,7 +3493,7 @@ select.form-control {
   border: 1px solid #09d33d;
 }
 
-.lightgreen + .popover .popover-title {;
+.lightgreen + .popover .popover-title {
   background-color: #09d33d;
   border-bottom: 1px solid #09d33d;
 }
@@ -3524,7 +3523,7 @@ select.form-control {
   border: 1px solid #0b9a0b;
 }
 
-.green + .popover .popover-title {;
+.green + .popover .popover-title {
   background-color: #0b9a0b;
   border-bottom: 1px solid #0b9a0b;
 }
@@ -3946,11 +3945,11 @@ span.tab-icon {
 }
 
 #home.homebg {
-  background-image: url('../images/homebg.jpg');
+  background-image: url(homebg.jpg);
 }
 
 #home.homebg2 {
-  background-image: url('../images/homebg2.jpg');
+  background-image: url(homebg2.jpg);
 }
 
 #home .section-content {
@@ -4002,7 +4001,7 @@ span.tab-icon {
   height:100%;
   z-index:0;
   background-color: rgba(248, 214, 27, 0.1);
-  background-image: url('../images/overlay/5.png');
+  background-image: url(5.png);
   background-repeat: repeat;
 }
 
@@ -5127,7 +5126,7 @@ span.tab-icon {
 /* preloading images */
 .owl-item.loading{
   min-height: 200px;
-  background: url('../images/loader.gif') no-repeat center center
+  background: url(loader.gif) no-repeat center center
 }
 
 
@@ -5136,7 +5135,7 @@ span.tab-icon {
 ===================== 8. #AboutUs Section  */
 
 #aboutus.section-bg {
-  background-image: url('../images/backgrounds/background1.jpg');
+  background-image: url(background1.jpg);
 }
 
 .member {
@@ -5381,11 +5380,11 @@ span.tab-icon {
 ============ 9. Skills Section/ Parallax  */
 
 .skills-container {
-  background-image: url('../images/skillsbg.jpg');
+  background-image: url(skillsbg.jpg);
 }
 
 .skills-container.background-new {
-  background-image: url('../images/backgrounds/background20.jpg');
+  background-image: url(background20.jpg);
 }
 
 .circle-progress-container {
@@ -5406,7 +5405,7 @@ span.tab-icon {
 ================== 10. #Services Section  */
 
 #services.section-bg {
-  background-image: url('../images/backgrounds/background9.jpg');
+  background-image: url(background9.jpg);
 }
 
 #services.section {
@@ -5461,11 +5460,11 @@ span.tab-icon {
 ============ 11. Countto Section/ Parallax  */
 
 .countto-container {
-  background-image: url('../images/countbg.jpg');
+  background-image: url(countbg.jpg);
 }
 
 .countto-container.background-new {
-  background-image: url('../images/backgrounds/background17.jpg');
+  background-image: url(background17.jpg);
 }
 
 .countto-container .parallax-content {
@@ -5492,32 +5491,32 @@ span.tab-icon {
 }
 
 .overlay-pattern1 {
-  background-image: url('../images/overlay/1.png');
+  background-image: url(1.png);
   background-repeat: repeat;
 }
 
 .overlay-pattern2 {
-  background-image: url('../images/overlay/2.png');
+  background-image: url(2.png);
   background-repeat: repeat;
 }
 
 .overlay-pattern3 {
-  background-image: url('../images/overlay/3.png');
+  background-image: url(3.png);
   background-repeat: repeat;
 }
 
 .overlay-pattern4 {
-  background-image: url('../images/overlay/4.png');
+  background-image: url(4.png);
   background-repeat: repeat;
 }
 
 .overlay-pattern5 {
-  background-image: url('../images/overlay/5.png');
+  background-image: url(5.png);
   background-repeat: repeat;
 }
 
 .overlay-pattern6 {
-  background-image: url('../images/overlay/6.png');
+  background-image: url(6.png);
   background-repeat: repeat;
 }
 
@@ -5611,7 +5610,7 @@ span.tab-icon {
 }
 
 #portfolio.section-bg {
-  background-image: url('../images/backgrounds/background7.jpg');
+  background-image: url(background7.jpg);
 }
 
 /* ajax content will be loaded in here */
@@ -6004,11 +6003,11 @@ span.tab-icon {
 ============ 13. Testimonials Section/ Parallax  */
 
 .testimonials-container {
-  background-image: url('../images/testimonialsbg2.jpg');
+  background-image: url(testimonialsbg2.jpg);
 }
 
 .testimonials-container.background-new {
-  background-image: url('../images/backgrounds/background19.jpg');
+  background-image: url(background19.jpg);
 }
 
 .testimonial {
@@ -6071,7 +6070,7 @@ span.tab-icon {
 =================== 14. Blog Page/Section  */
 
 #blog.section-bg {
-  background-image: url('../images/backgrounds/background3.jpg');
+  background-image: url(background3.jpg);
 }
 
 #blog.section {
@@ -6815,13 +6814,13 @@ span.tab-icon {
 ============ 15. TwitterFeed Section/ Parallax  */
 
 .twitterfeed-container {
-  background-image: url('../images/twitterbg.jpg');
+  background-image: url(twitterbg.jpg);
   color:#fff;
   text-align: center;
 }
 
 .twitterfeed-container.background-new {
-  background-image: url('../images/backgrounds/background18.jpg');
+  background-image: url(background18.jpg);
 }
 
 .twitter-icon {
@@ -6877,7 +6876,7 @@ span.tab-icon {
 =================== 16. #Contact Section  */
 
 #contactus.section-bg {
-  background-image: url('../images/backgrounds/background4.jpg');
+  background-image: url(background4.jpg);
 }
 
 #contactus.section {
@@ -7207,12 +7206,12 @@ textarea.fix-height {
 }
 
 #footer.parallax {
-  background-image: url('../images/backgrounds/background16.jpg');
+  background-image: url(background16.jpg);
   background-position: center bottom;
 }
 
 #footer.section-bg {
-  background-image: url('../images/backgrounds/background6.jpg');
+  background-image: url(background6.jpg);
 }
 
 #footer .section-content {
@@ -7496,7 +7495,7 @@ change background image with one of yours.
 #videobg-container.videobg {
   -webkit-background-size: cover;
   background-size: cover;
-  background-image: url('../images/backgrounds/background15.jpg');
+  background-image: url(background15.jpg);
 }
 
 #videobg-container .parallax-content {

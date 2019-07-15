@@ -167,7 +167,7 @@ website:   	http://www.themepunch.com
 	padding:9px 20px; 
 	font-size:19px; 
 	 line-height:57px !important; 
-	 background:url(../images/gradient/g40.png) repeat-x top;
+	 background:url(gradient/g40.png) repeat-x top;
 	}
 
 
@@ -295,16 +295,16 @@ website:   	http://www.themepunch.com
 	}
 
 .tp-bannershadow.tp-shadow1 {	
-	background:url(../images/revslider/shadow1.png) no-repeat; 
+	background:url(revslider/shadow1.png) no-repeat; 
 	background-size:100% 100%; width:890px; height:60px; bottom:-60px;
 }
 
 .tp-bannershadow.tp-shadow2 {	
-	background:url(../images/revslider/shadow2.png) no-repeat; 
+	background:url(revslider/shadow2.png) no-repeat; 
 	background-size:100% 100%; width:890px; height:60px;bottom:-60px;
 }
 
-.tp-bannershadow.tp-shadow3 {	background:url(../images/revslider/shadow3.png) no-repeat; 
+.tp-bannershadow.tp-shadow3 {	background:url(revslider/shadow3.png) no-repeat; 
 	background-size:100% 100%; width:890px; height:60px;bottom:-60px;
 }
 
@@ -378,10 +378,10 @@ website:   	http://www.themepunch.com
 	position:absolute;top:0px;left:0px;z-index:1;
 }
 
-.tp-dottedoverlay.twoxtwo				{	background:url(../images/revslider/gridtile.png)}
-.tp-dottedoverlay.twoxtwowhite			{	background:url(../images/revslider/gridtile_white.png)}
-.tp-dottedoverlay.threexthree			{	background:url(../images/revslider/gridtile_3x3.png)}
-.tp-dottedoverlay.threexthreewhite		{	background:url(../images/revslider/gridtile_3x3_white.png)}
+.tp-dottedoverlay.twoxtwo				{	background:url(revslider/gridtile.png)}
+.tp-dottedoverlay.twoxtwowhite			{	background:url(revslider/gridtile_white.png)}
+.tp-dottedoverlay.threexthree			{	background:url(revslider/gridtile_3x3.png)}
+.tp-dottedoverlay.threexthreewhite		{	background:url(revslider/gridtile_3x3_white.png)}
 /********************************
 	-	DOTTED OVERLAYS ENDS	-
 *********************************/
@@ -413,28 +413,28 @@ website:   	http://www.themepunch.com
 
 .tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(../images/revslider/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
-.tp-bullets.simplebullets.navbar-old					{ 	 background:url(../images/revslider/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
+.tp-bullets.simplebullets.navbar-old					{ 	 background:url(revslider/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 
-.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(../images/revslider/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:0px; margin-left:3px;}
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(revslider/bullet.png) no-Repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:0px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
-.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(../images/revslider/bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:0px;}
+.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(revslider/bullets.png) no-Repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.round-old .bullet.last		{	margin-right:0px;}
 
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(../images/revslider/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
+.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(revslider/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.square .bullet.last			{	margin-right:0px;}
 
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url(../images/revslider/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
+.tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url(revslider/bullets2.png) no-Repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:0px;}
 .tp-bullets.simplebullets.square-old .bullet.last		{	margin-right:0px;}
 
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url(../images/revslider/bullet_boxed.png) no-Repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:0px;}
+.tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url(revslider/bullet_boxed.png) no-Repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:0px;}
 
 .tp-bullets.simplebullets.navbar .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar .bullet.last		{	margin-right:0px !important;}
@@ -442,7 +442,7 @@ website:   	http://www.themepunch.com
 
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url(../images/revslider/navigdots.png) no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
+.tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url(revslider/navigdots.png) no-Repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
 .tp-bullets.simplebullets.navbar-old .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar-old .bullet.last		{	margin-right:0px !important;}
 
@@ -478,40 +478,40 @@ website:   	http://www.themepunch.com
 															-khtml-opacity: 0;
 															opacity: 0;
 														}
-.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
-.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
+.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/large_left.png) no-Repeat top left;	width:40px;	height:40px;   }
+.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/large_right.png) no-Repeat top left;	width:40px;	height:40px;   }
 
 
-.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/small_left.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:0px;	}
-.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/small_right.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:0px;}
+.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/small_left.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:0px;	}
+.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/small_right.png) no-Repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:0px;}
 
 
-.tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrow_left.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:0px;	}
-.tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrow_right.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:0px;}
+.tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrow_left.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:0px;	}
+.tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrow_right.png) no-Repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:0px;}
 
 
-.tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/small_left_boxed.png) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
-.tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/small_right_boxed.png) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
+.tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/small_left_boxed.png) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
+.tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/small_right_boxed.png) no-Repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
 
 
-.tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrowleft.png) no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
-.tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrowright.png) no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
+.tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrowleft.png) no-Repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
+.tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrowright.png) no-Repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
 
 .tp-leftarrow.navbar-old.thumbswitharrow				{	margin-right:10px; }
 .tp-rightarrow.navbar-old.thumbswitharrow				{	margin-left:0px; }
 
-.tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
-.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
+.tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
+.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
 
 
-.tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
-.tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
+.tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrow_left2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:0px;}
+.tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/arrow_right2.png) no-Repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:0px;}
 
 
-.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/large_left.png) no-Repeat 0 0;	width:40px;	height:40px;
+.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/large_left.png) no-Repeat 0 0;	width:40px;	height:40px;
 
 														}
-.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(../images/revslider/large_right.png) no-Repeat 0 0;	width:40px;	height:40px;
+.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(revslider/large_right.png) no-Repeat 0 0;	width:40px;	height:40px;
 
 														}
 
@@ -628,9 +628,9 @@ website:   	http://www.themepunch.com
 }
 /*  CAPTION SLIDELINK   **/
 .caption.slidelink a div,
-.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(../images/revslider/coloredbg.png) repeat;}
+.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(revslider/coloredbg.png) repeat;}
 
-.tp-caption.slidelink a span	{	background:url(../images/revslider/coloredbg.png) repeat;}
+.tp-caption.slidelink a span	{	background:url(revslider/coloredbg.png) repeat;}
 
 
 
@@ -1129,7 +1129,7 @@ website:   	http://www.themepunch.com
 .tp-loader.spinner0 {
   width: 40px;
   height: 40px;
-  background:url(../images/revslider/loader.gif) no-repeat center center;
+  background:url(revslider/loader.gif) no-repeat center center;
   background-color: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);
   -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.15);  
@@ -1160,7 +1160,7 @@ website:   	http://www.themepunch.com
 
 
 
-.tp-loader.spinner5 	{	background:url(../images/revslider/loader.gif) no-repeat 10px 10px; 
+.tp-loader.spinner5 	{	background:url(revslider/loader.gif) no-repeat 10px 10px; 
 							background-color:#fff;  
 							margin:-22px -22px; 							
 							width:44px;height:44px;
@@ -1327,7 +1327,7 @@ website:   	http://www.themepunch.com
 
 
 
-.tp-transparentimg {	content:"url(../images/revslider/transparent.png)"}
+.tp-transparentimg {	content:"url(revslider/transparent.png)"}
 .tp-3d				{	-webkit-transform-style: preserve-3d;
 						 -webkit-transform-origin: 50% 50%;
 					}
@@ -1344,11 +1344,11 @@ zoom: 1;
 
 @font-face {
   font-family: 'revicons';
-  src: url('../fonts/revicons.eot?5510888');
-  src: url('../fonts/revicons.eot?5510888#iefix') format('embedded-opentype'),
-       url('../fonts/revicons.woff?5510888') format('woff'),
-       url('../fonts/revicons.ttf?5510888') format('truetype'),
-       url('../fonts/revicons.svg?5510888#revicons') format('svg');
+  src: url('fonts/revicons.eot?5510888');
+  src: url('fonts/revicons.eot?5510888#iefix') format('embedded-opentype'),
+       url('fonts/revicons.woff?5510888') format('woff'),
+       url('fonts/revicons.ttf?5510888') format('truetype'),
+       url('fonts/revicons.svg?5510888#revicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -1358,7 +1358,7 @@ zoom: 1;
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'revicons';
-    src: url('../font/revicons.svg?5510888#revicons') format('svg');
+    src: url('font/revicons.svg?5510888#revicons') format('svg');
   }
 }
 */
