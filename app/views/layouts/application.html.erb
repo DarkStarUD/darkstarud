@@ -17,7 +17,14 @@
   </head>
 
   <body data-spy="scroll" data-target="#main-menu">
-    <%= yield %>
+    <div id="wrapper">
+      <%= yield %>
+      <!-- footer -->
+      <%= render "sections/footer"%>
+    </div><!-- End #wrapper -->
+
+    <!-- Scroll Top Button -->
+    <a href="#home" id="scroll-top" class="add-tooltip" data-placement="top" title="Go to top"><i class="fa fa-angle-double-up"></i></a>
     <!-- Google map javascript api v3 -->
         <script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script src=<%= asset_path('main.js') %>></script>
